@@ -26,6 +26,14 @@ def fahrenheit_to_celsius(fahrenheit):
 def test_fahrenheit_to_celsius():
     assert fahrenheit_to_celsius(32) == 0
 def isEven(n):
+    """checks if a number is even  
+
+    Args:
+        n (int): the number to check
+
+    Returns:
+        bool: true if the number is even, false if the number is odd
+    """
     return not(n & 1)
 
 def test_isEven():
