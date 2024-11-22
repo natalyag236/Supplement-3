@@ -25,3 +25,6 @@ def fahrenheit_to_celsius(fahrenheit):
 
 def test_fahrenheit_to_celsius():
     assert fahrenheit_to_celsius(32) == 0
+
+def test_isEven():
+  assert isEven(4) == True
