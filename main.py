@@ -12,5 +12,8 @@ def celsius_to_fahrenheit(celsius):
 def test_celsius_to_fahrenheit():
     assert celsius_to_fahrenheit(100) == 212
 
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
+
 def test_fahrenheit_to_celsius():
     assert fahrenheit_to_celsius(32) == 0
