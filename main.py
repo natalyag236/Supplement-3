@@ -13,6 +13,14 @@ def test_celsius_to_fahrenheit():
     assert celsius_to_fahrenheit(100) == 212
 
 def fahrenheit_to_celsius(fahrenheit):
+    """converts a temperature form fahrenheit to celsius
+
+    Args:
+        fahrenheit (float): The temperature in degrees fahrenheit
+
+    Returns:
+        float: the temperature to degrees celsius
+    """
     return (fahrenheit - 32) * 5/9
 
 def test_fahrenheit_to_celsius():
